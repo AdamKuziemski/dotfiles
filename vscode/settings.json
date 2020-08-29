@@ -1,0 +1,11 @@
+{
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "git.autofetch": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "zenMode.hideLineNumbers": false,
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "explorer.autoReveal": false
+}
