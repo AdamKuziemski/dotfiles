@@ -7,5 +7,7 @@
     "window.zoomLevel": 0,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "workbench.editor.focusRecentEditorAfterClose": false,
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renameOnType": true
 }
