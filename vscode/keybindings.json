@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveWithoutFormatting"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.saveAll"
+    },
+    // formatting
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    // move between PartsOfWord
+    {
+        "key": "alt+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordPartRight"
+    },
+    // Toggle between terminal and editor focus
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
+]
