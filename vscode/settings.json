@@ -1,14 +1,15 @@
 {
     "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
-    "editor.renameOnType": true,
-    "editor.tabSize": 2,
     "git.autofetch": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
     "zenMode.hideLineNumbers": false,
     "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "workbench.editor.focusRecentEditorAfterClose": false,
     "explorer.autoReveal": false,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renameOnType": true,
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "replace"
 }
