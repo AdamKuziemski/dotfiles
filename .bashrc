@@ -102,6 +102,8 @@ alias more=less
 alias mv="mv -i"
 alias rm="rm -i"
 alias ..="cd .."
+alias clippy="cargo clippy"
+alias gh="history | rg"
 
 xhost +local:root > /dev/null 2>&1
 
