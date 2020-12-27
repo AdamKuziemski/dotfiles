@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/50_max_user_watches.conf && sudo sysctl --system
+#setup docker
+systemctl start docker
+systemctl enable docker
+
+#change max user watches so chokidar doesn't die
+echo fs.inotify.max_user_watches=524288 | tee /etc/sysctl.d/50_max_user_watches.conf && sysctl --system
