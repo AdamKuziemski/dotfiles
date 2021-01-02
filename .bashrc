@@ -2,6 +2,19 @@
 # ~/.bashrc
 #
 
+export PATH=$PATH:~/.cargo/bin
+
+alias cp="cp -i"                          # confirm before overwriting something
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+alias np='nano -w PKGBUILD'
+alias more=less
+alias mv="mv -i"
+alias rm="rm -i"
+alias ..="cd .."
+alias clippy="cargo clippy"
+alias gh="history | rg"
+
 [[ $- != *i* ]] && return
 
 colors() {
@@ -89,21 +102,6 @@ else
 fi
 
 unset use_color safe_term match_lhs sh
-
-export PATH=$PATH:~/.cargo/bin
-
-(cat ~/.cache/wal/sequences &)
-
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
-alias np='nano -w PKGBUILD'
-alias more=less
-alias mv="mv -i"
-alias rm="rm -i"
-alias ..="cd .."
-alias clippy="cargo clippy"
-alias gh="history | rg"
 
 xhost +local:root > /dev/null 2>&1
 
