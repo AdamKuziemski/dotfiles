@@ -1,0 +1,35 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum
+
+[1]
+Description=Application settings for code-oss
+desktop=2
+desktoprule=2
+wmclass=code-oss
+wmclassmatch=1
+
+[2]
+Description=Application settings for spotify
+desktop=3
+desktoprule=2
+maximizevert=true
+maximizevertrule=2
+size=1920,1050
+sizerule=2
+wmclass=spotify
+wmclassmatch=1
+
+[3]
+Description=Application settings for firefox
+desktop=1
+desktoprule=2
+maximizevert=true
+maximizevertrule=2
+size=1930,1050
+sizerule=2
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=3
