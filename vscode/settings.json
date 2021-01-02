@@ -2,7 +2,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "editor.tabSize": 2,
     "editor.suggest.insertMode": "replace",
     "explorer.autoReveal": false,
