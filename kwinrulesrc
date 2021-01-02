@@ -31,5 +31,10 @@ wmclass=navigator firefox
 wmclasscomplete=true
 wmclassmatch=1
 
+[4]
+Description=Global rules
+noborder=true
+noborderrule=2
+
 [General]
-count=3
+count=4
