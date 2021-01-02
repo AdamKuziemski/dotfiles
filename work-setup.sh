@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#setup git
+git config --global user.name "Adam Kuziemski"
+git config --global user.email "kuziemski.a@gmail.com"
+
 #setup docker
 systemctl start docker
 systemctl enable docker
