@@ -8,8 +8,10 @@ git config --global user.email "kuziemski.a@gmail.com"
 pacman -S ttf-fira-code
 
 #setup docker
+pacman -S docker
 systemctl start docker
 systemctl enable docker
+docker pull postgres
 
 #change max user watches so chokidar doesn't die
 echo fs.inotify.max_user_watches=524288 | tee /etc/sysctl.d/50_max_user_watches.conf && sysctl --system
