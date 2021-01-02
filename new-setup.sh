@@ -15,3 +15,11 @@ docker pull postgres
 
 #change max user watches so chokidar doesn't die
 echo fs.inotify.max_user_watches=524288 | tee /etc/sysctl.d/50_max_user_watches.conf && sysctl --system
+
+#copy settings over
+cp ./.bashrc ~
+cp ./.vimrc ~
+cp ./kglobalshortcutsrc ~/.config/kglobalshortcutsrc
+cp ./khotkeysrc ~/.config/khotkeysrc
+cp ./kwinrc ~/.config/kwinrc
+cp ./kwinrulesrc ~/.config/kwinrulesrc
