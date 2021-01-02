@@ -4,6 +4,9 @@
 git config --global user.name "Adam Kuziemski"
 git config --global user.email "kuziemski.a@gmail.com"
 
+#install fira code
+pacman -S ttf-fira-code
+
 #setup docker
 systemctl start docker
 systemctl enable docker
