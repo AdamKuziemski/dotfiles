@@ -7,6 +7,18 @@ git config --global user.email "kuziemski.a@gmail.com"
 #install fira code
 pacman -S ttf-fira-code
 
+#install yay
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+#install rust and the tools
+pacman -S rust
+rustup component add rustfmt
+rustup component add clippy
+rustup component add rls
+
 #setup docker
 pacman -S docker
 systemctl start docker
@@ -23,3 +35,4 @@ cp ./kglobalshortcutsrc ~/.config/kglobalshortcutsrc
 cp ./khotkeysrc ~/.config/khotkeysrc
 cp ./kwinrc ~/.config/kwinrc
 cp ./kwinrulesrc ~/.config/kwinrulesrc
+cp ./kscreenlockerrc ~/.config/kscreenlockerrc
