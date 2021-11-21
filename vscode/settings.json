@@ -4,7 +4,6 @@
     "editor.fontLigatures": true,
     "editor.linkedEditing": true,
     "editor.tabSize": 2,
-    "editor.suggest.insertMode": "replace",
     "explorer.autoReveal": false,
     "window.zoomLevel": 0,
     "workbench.editor.focusRecentEditorAfterClose": false,
@@ -23,5 +22,5 @@
     "files.insertFinalNewline": true,
     "git.autofetch": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
