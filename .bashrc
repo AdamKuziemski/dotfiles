@@ -12,8 +12,14 @@ alias more=less
 alias mv="mv -i"
 alias rm="rm -i"
 alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
 alias clippy="cargo clippy"
 alias gh="history | rg"
+alias gp="git pull"
+alias pp="git push"
+alias co="git checkout"
+alias ff="git fetch"
 
 [[ $- != *i* ]] && return
 
