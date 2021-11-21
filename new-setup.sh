@@ -14,10 +14,20 @@ cd yay
 makepkg -si
 
 #install rust and the tools
-pacman -S rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup component add rustfmt
 rustup component add clippy
-rustup component add rls
+rustup component add rls rust-analysis rust-src
+
+#install visual studio code and extensions
+yay visual studio code
+code --install-extension angular.ng-template
+code --install-extension infinity1207.angular2-switcher
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension mrmlnc.vscode-scss
+code --install-extension maxvanderschee.web-accessibility
+code --install-extension rust-lang.rust
+code --install-extension shd101wyy.markdown-preview-enhanced
 
 #setup docker
 pacman -S docker
