@@ -19,6 +19,12 @@ rustup component add rustfmt
 rustup component add clippy
 rustup component add rls rust-analysis rust-src
 
+cargo install cargo-modules
+cargo install evxcr_repl
+
+#install text editors
+pacman -S vim
+
 #install visual studio code and extensions
 yay visual studio code
 code --install-extension angular.ng-template
