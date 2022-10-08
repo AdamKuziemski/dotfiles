@@ -4,6 +4,24 @@
 
 export PATH=$PATH:~/.cargo/bin
 
+#rust aliases
+alias noice="cargo fmt && cargo clippy --fix -- -W clippy::pedantic -W clippy::nursery" # -W clippy::unwrap_used -W clippy::expect_used
+alias modules="cargo modules generate tree --with-types"
+alias pb="sudo ./start-db.sh && cargo run | bunyan" # todo run specific Diesel migrations for development?
+
+#js aliases
+alias kewt="prettier --write ." # todo make something more custom
+
+#git aliases
+alias gp="git pull"
+alias pp="git push"
+alias co="git checkout"
+alias ff="git fetch"
+alias gm="git merge"
+alias pq="git cherry-pick"
+
+#tool aliases
+alias gh="history | rg"
 alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
@@ -13,13 +31,7 @@ alias mv="mv -i"
 alias rm="rm -i"
 alias ..="cd .."
 alias ..2="cd ../.."
-alias ..3="cd ../../.."
-alias clippy="cargo clippy"
-alias gh="history | rg"
-alias gp="git pull"
-alias pp="git push"
-alias co="git checkout"
-alias ff="git fetch"
+alias ..3="cd 
 
 [[ $- != *i* ]] && return
 
