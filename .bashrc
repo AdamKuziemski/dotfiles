@@ -36,7 +36,7 @@ alias mv="mv -i"
 alias rm="rm -i"
 alias ..="cd .."
 alias ..2="cd ../.."
-alias ..3="cd 
+alias ..3="cd ../../.."
 
 [[ $- != *i* ]] && return
 
