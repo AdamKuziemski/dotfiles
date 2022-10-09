@@ -13,10 +13,15 @@ alias pb="sudo ./start-db.sh && cargo run | bunyan" # todo run specific Diesel m
 alias kewt="prettier --write ." # todo make something more custom
 
 #git aliases
+alias gca="git commit --amend"
+alias gcaa="git commit --amend --no-edit"
+alias ss="git stash --include-untracked"
+alias sp="git stash pop"
 alias gp="git pull"
 alias pp="git push"
 alias co="git checkout"
 alias ff="git fetch"
+alias fco="git fetch && git checkout"
 alias gm="git merge"
 alias pq="git cherry-pick"
 
