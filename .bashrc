@@ -6,7 +6,7 @@ export PATH=$PATH:~/.cargo/bin
 
 #rust aliases
 alias noice="cargo fmt && cargo clippy --fix -- -W clippy::pedantic -W clippy::nursery" # -W clippy::unwrap_used -W clippy::expect_used
-alias modules="cargo modules generate tree --with-types"
+alias modules="cargo modules generate tree"
 alias pb="sudo ./start-db.sh && cargo run | bunyan" # todo run specific Diesel migrations for development?
 
 #js aliases
