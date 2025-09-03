@@ -22,5 +22,11 @@
     "files.insertFinalNewline": true,
     "git.autofetch": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[rust]": {
+        "editor.tabSize": 4
+    },
+    "workbench.editor.customLabels.patterns": {
+        "**/mod.rs": "${dirname}/mod.rs"
+    }
 }
