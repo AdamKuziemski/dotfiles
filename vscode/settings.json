@@ -24,9 +24,19 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "[rust]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "workbench.editor.customLabels.patterns": {
-        "**/mod.rs": "${dirname}/mod.rs"
-    }
+        "**/dto.rs": "${dirname}/dto.rs",
+        "**/enums.rs": "${dirname}/enums.rs",
+        "**/mod.rs": "${dirname}/mod.rs",
+        "**/models.rs": "${dirname}/models.rs"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
