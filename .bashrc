@@ -24,6 +24,7 @@ alias ff="git fetch"
 alias fco="git fetch && git checkout"
 alias gm="git merge"
 alias pq="git cherry-pick"
+alias ggrep="git diff | grep"
 
 #tool aliases
 alias gh="history | rg"
