@@ -25,6 +25,10 @@ alias fco="git fetch && git checkout"
 alias gm="git merge"
 alias pq="git cherry-pick"
 alias ggrep="git diff | grep"
+alias brunch="git rev-parse --abbrev-ref HEAD" # current branch name
+alias glob="git checkout -b" # new local branch
+alias plob="git push -u origin $(brunch)" # publish current local branch
+alias dlob="git branch -D" # delete branch
 
 #tool aliases
 alias gh="history | rg"
